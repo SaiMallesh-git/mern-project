@@ -18,7 +18,7 @@ const frontend = process.env.Front_End;
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: [frontend, "https://post-it-heroku.herokuapp.com"],
+    origin: ["https://mern-project-55lmm.vercel.app/",frontend, "https://post-it-heroku.herokuapp.com"],
   },
 });
 
