@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "@mui/material";
 import "react-icons";
 import "react-icons/bi";
@@ -25,7 +25,6 @@ import PrivateRoute from "./components/PrivateRoute";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
 import { initiateSocketConnection } from "./helpers/socketHelper";
-import { io } from "socket.io-client";
 
 // Import the CSS file here
 import "./App.css";
