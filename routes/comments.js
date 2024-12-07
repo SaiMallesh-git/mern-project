@@ -8,5 +8,5 @@ router.post("/:id", verifyToken, commentControllers.createComment);
 router.delete("/:id", verifyToken, commentControllers.deleteComment);
 router.get("/post/:id", commentControllers.getPostComments);
 router.get("/user/:id", commentControllers.getUserComments);
-
+//export
 module.exports = router;

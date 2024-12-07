@@ -13,7 +13,7 @@ const authSocket = (socket, next) => {
       next(new Error("Authentication error"));
     }
   } else {
-    next(new Error("Authentication error"));
+    next(new Error("There is an Authentication error"));
   }
 };
 

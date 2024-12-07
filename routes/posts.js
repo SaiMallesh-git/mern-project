@@ -18,5 +18,5 @@ router.get(
   postControllers.getUserLikedPosts
 );
 router.get("/like/:postId/users", postControllers.getUserLikes);
-
+//export
 module.exports = router;

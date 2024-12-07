@@ -5,6 +5,7 @@ Deployed at: https://post-it-heroku.herokuapp.com/
 ![GIF of PostIt walkthrough](https://media.giphy.com/media/9tnaXy42T4NzSJdHhP/giphy.gif)
 
 ## Features
+- This a college project 
 - Create, read, update and delete posts
 - Like and unlike posts
 - Create, reply to, read, update and delete nested comments

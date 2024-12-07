@@ -16,5 +16,5 @@ router.delete("/unfollow/:id", verifyToken, userControllers.unfollow);
 
 router.get("/followers/:id", userControllers.getFollowers);
 router.get("/following/:id", userControllers.getFollowing);
-
+//export
 module.exports = router;
