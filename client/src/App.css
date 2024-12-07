@@ -1,0 +1,36 @@
+/* App.css */
+
+/* Set a gradient background for the entire page */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;  /* Change the font if desired */
+  background: linear-gradient(0deg, #8400ff 30%, #ffffff 100%);
+  background-attachment: fixed; /* This makes the background stay fixed while scrolling */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Set the default color for text */
+* {
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+/* Style input and textarea to have light background */
+input, textarea {
+  background-color: #f4f4f4; /* Light background color */
+  color: #ffffff; /* Dark text color for readability */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for a smoother look */
+  padding: 8px 12px; /* Padding inside input boxes */
+  font-size: 16px; /* Font size */
+  transition: all 0.3s ease; /* Smooth transition for focus effect */
+}
+
+/* Change border and background color on focus */
+input:focus, textarea:focus {
+  background-color: #ffffff; /* White background when focused */
+  border-color: #3f51b5; /* Change border color to blue */
+  outline: none; /* Remove the default outline */
+}

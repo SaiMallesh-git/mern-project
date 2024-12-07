@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import "@mui/material";
 import "react-icons";
 import "react-icons/bi";
@@ -11,8 +12,6 @@ import {
   BrowserRouter,
   Route,
   Routes,
-  useParams,
-  useSearchParams,
 } from "react-router-dom";
 import theme from "./theme";
 
@@ -25,10 +24,11 @@ import ExploreView from "./components/views/ExploreView";
 import PrivateRoute from "./components/PrivateRoute";
 import SearchView from "./components/views/SearchView";
 import MessengerView from "./components/views/MessengerView";
-import { initiateSocketConnection, socket } from "./helpers/socketHelper";
-import { useEffect } from "react";
-import { BASE_URL } from "./config";
+import { initiateSocketConnection } from "./helpers/socketHelper";
 import { io } from "socket.io-client";
+
+// Import the CSS file here
+import "./App.css";
 
 function App() {
   initiateSocketConnection();
