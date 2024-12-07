@@ -1,4 +1,4 @@
-# PostIt
+<!-- # PostIt
 PostIt is a fully-featured social media web application, built with the MERN stack.  
 
 Deployed at: https://post-it-heroku.herokuapp.com/  
@@ -74,4 +74,4 @@ npm start
 ### Search view
 ![image](https://user-images.githubusercontent.com/76620777/170821986-49d2a93a-5486-47fc-885e-37c0d3f628f3.png)
 
-"# social-media-student-community" 
+"# social-media-student-community"  -->
