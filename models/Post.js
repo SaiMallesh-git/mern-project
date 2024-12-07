@@ -52,5 +52,5 @@ PostSchema.pre("remove", async function (next) {
   await PostLike.deleteMany({ postId: this._id });
   next();
 });
-
+//export
 module.exports = mongoose.model("post", PostSchema);

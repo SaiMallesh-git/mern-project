@@ -15,5 +15,5 @@ const PostLike = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
+//export
 module.exports = mongoose.model("postLike", PostLike);

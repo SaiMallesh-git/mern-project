@@ -7,7 +7,7 @@ const paginate = require("../util/paginate");
 const cooldown = new Set();
 
 USER_LIKES_PAGE_SIZE = 9;
-
+//export
 const createPost = async (req, res) => {
   try {
     const { title, content, userId } = req.body;

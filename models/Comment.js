@@ -56,5 +56,5 @@ CommentSchema.pre("save", function (next) {
 });
 
 const Comment = mongoose.model("comment", CommentSchema);
-
+//export
 module.exports = Comment;

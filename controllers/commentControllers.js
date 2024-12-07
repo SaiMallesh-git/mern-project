@@ -76,7 +76,7 @@ const getPostComments = async (req, res) => {
     return res.status(400).json(err.message);
   }
 };
-
+//export
 const getUserComments = async (req, res) => {
   try {
     const userId = req.params.id;
